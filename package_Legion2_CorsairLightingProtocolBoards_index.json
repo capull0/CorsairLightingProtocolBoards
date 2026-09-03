@@ -323,6 +323,58 @@
                         }
                     ],
                     "toolsDependencies": []
+                },
+                {
+                    "name": "Corsair Lighting Protocol Boards",
+                    "architecture": "avr",
+                    "version": "0.4.0",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://github.com/Legion2/CorsairLightingProtocolBoards"
+                    },
+                    "url": "https://github.com/capull0/CorsairLightingProtocolBoards/releases/download/avr-0.4.0/CorsairLightingProtocolBoards-avr-0.4.0.zip",
+                    "archiveFileName": "CorsairLightingProtocolBoards-avr-0.4.0.zip",
+                    "checksum": "SHA-256:fcf61e482b0b6b8d39966b12ab04c1830b4bc517ec6618e2f28bc8f9adcc38ca",
+                    "size": 34993,
+                    "boards": [
+                        {
+                            "name": "CLP SparkFun Pro Micro 5V, 16 MHz"
+                        },
+                        {
+                            "name": "CLP SparkFun Pro Micro 3.3V, 8 MHz"
+                        },
+                        {
+                            "name": "CLP HoodLoader2 16u2"
+                        },
+                        {
+                            "name": "CLP Arduino Leonardo"
+                        },
+                        {
+                            "name": "CLP Arduino Micro"
+                        },
+                        {
+                            "name": "CLP Adafruit Flora"
+                        },
+                        {
+                            "name": "CLP Adafruit Feather 32u4"
+                        },
+                        {
+                            "name": "CLP Adafruit Circuit Playground Classic"
+                        },
+                        {
+                            "name": "CLP Adafruit ItsyBitsy 32u4 5V 16MHz"
+                        },
+                        {
+                            "name": "CLP Adafruit ItsyBitsy 32u4 3V 8MHz"
+                        },
+                        {
+                            "name": "CLP Adafruit Bluefruit Micro"
+                        },
+                        {
+                            "name": "CLP Adafruit 32u4 Breakout"
+                        }
+                    ],
+                    "toolsDependencies": []
                 }
             ],
             "tools": []
