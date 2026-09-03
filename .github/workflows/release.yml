@@ -16,6 +16,10 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # The workflow pushes the version bump and creates a release; the default
+    # GITHUB_TOKEN of new repositories is read-only.
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v6
       - name: Update version in files
